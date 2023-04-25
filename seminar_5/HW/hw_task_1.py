@@ -7,6 +7,6 @@ def power(a, b):
     return a * power(a, b - 1)
 
 """Получение значений и вывод результата"""
-number = input('Введите значение A = ')
-degree = input('Введите значение B = ')
-print(power(number, degree))
+number = int(input('Введите значение A = '))
+degree = int(input('Введите значение B = '))
+print(f'{number} ** {degree} = {power(number, degree)}')
