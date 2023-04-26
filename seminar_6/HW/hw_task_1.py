@@ -7,7 +7,7 @@ def arithmetic_progression(a1, d, n):
     global data_arithmetic_progression
     data_arithmetic_progression.append(a1)
     if n - 1: arithmetic_progression(a1 + d, d, n - 1)
-    return m
+
 
 """Получение значений и вывод результата"""
 a1 = int(input('Введите значение первого элемента прогрессии : '))
